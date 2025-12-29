@@ -11,7 +11,7 @@ This tutorial will show you how to integrate the LWB5+ Dongle on an i.MX 8M Plus
 
 We will flash our image into a micro SD card. If you prefer, you can use the onboard eMMC, but for this tutorial. we will boot from a micro SD card. The LWB5+ Dongle will plug into J7. Power will be applied via J5, and J23 will be used to connect to a serial terminal (115200, N, 8, 1). If the build works, the drivers will automatically load on power up. We will then connect to an AP and do a ping to demonstrate that Wi-Fi works. Then, we will download audio file and test audio locally on imx8 first with pulseaudio. After that, we will connect to a smartphone via Bluetooth and stream music from a phone to LWB5+ so that we can hear it with earphone from imx8 plus EVK.
 
-![image](images/Setup.png)
+![image](../images/Setup.png)
 
 1.  Download the i.MX Yocto Project Community BSP recipe layers
 
@@ -242,7 +242,7 @@ We will flash our image into a micro SD card. If you prefer, you can use the onb
 
 16. Then, scan from your smartphone to connect to the **imx8mpevk** device in the Bluetooth scan list under the Setting. Pair with numeric comparison and authorize services by typing **yes** on the terminal for imx8 EVK.
 
-	![image](images/bluetoothctl.png)
+	![image](../images/bluetoothctl.png)
 
 17. Play audio (e.g., mp3 music) from the smartphone and you should be able to hear through earphone plugged into headphone aux port on imx8 EVK. 
 
